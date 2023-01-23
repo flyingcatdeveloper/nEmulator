@@ -1,0 +1,21 @@
+{ 
+
+  "name": "NEKO Emulator", 
+
+  "short_name": "nEmulator", 
+
+  "start_url": "https://soratobu-neko.github.io/nEmulator", 
+
+  "display": "standalone", 
+
+  "icons": [{ 
+
+    "src": "docs/favicon.ico", 
+
+    "sizes": "512x512", 
+
+    "type": "image/ico" 
+
+  }] 
+
+}
