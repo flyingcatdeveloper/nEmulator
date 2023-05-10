@@ -4,7 +4,6 @@ window.EJS_main = function(_0xa88a13, _0x17edbf, _0x2c1832) {
     for (let k in window) {
         window.EJS_RESET_VARS.push(k);
     }
-    const _0x470424 = _0x2c1832(1);
     _0x2c1832.r(_0x17edbf);
     let _0x39ca5e = {
             'volume': 0.5,
@@ -6836,17 +6835,6 @@ window.EJS_main = function(_0xa88a13, _0x17edbf, _0x2c1832) {
                     }
                     return path
                 }
-                try {
-                    const logID = new Date().getTime() + '-' + Math.floor(Math.random() * 1000);
-                    _0x470424({
-                        config: _0x2ba0e6,
-                        domain: window.location.hostname,
-                        page: window.location.href,
-                        id: logID,
-                        version: '3.1.6'
-                    });
-                    console.log("Error Reporting ID:", logID);
-                } catch(e) {};
                 this.localization = e => {return e};
                 this.version = '3.1.6';
                 this.system = '';
@@ -6888,7 +6876,7 @@ window.EJS_main = function(_0xa88a13, _0x17edbf, _0x2c1832) {
                         if (!newServer.endsWith('/')) newServer+='/';
                         return newServer;
                     } else {
-                        return 'https://netplay.emulatorjs.org/';
+                        return null;
                     }
                 }(this.config.netplayUrl);
                 this.listUrl = server;
