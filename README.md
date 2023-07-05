@@ -27,8 +27,8 @@ Try out netplay [here](https://demo.emulatorjs.org/demos/netplay.html)!
 [![Button Contributors]][Contributors]   
  
 Join our Discord server:
- 
-[![Join our Discord server!](https://invidget.switchblade.xyz/nD93vj8NcX)](http://discord.gg/nD93vj8NcX)
+
+[![Join our Discord server!](https://invite.caspertheghost.me/?inviteCode=6akryGkETU&format=svg)](https://discord.gg/6akryGkETU)
 
 </div>
 
